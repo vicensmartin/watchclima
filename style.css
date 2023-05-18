@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Dosis', sans-serif;
+}
+
+
+/* 
+PALETA DE COLORES:
+https://coolors.co/000814-001d3d-003566-e2f1ff-ffc300-ffd60a
+ */
+
+
+
+h1{
+    color: #003566;
+}
+
+.seccion_principal {
+  color: #000814;
+  background-color: #E2F1FF;
+  padding: 30px;
+}
+
+.div_ul {
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.nombre_elegido{
+    color: #FFC300;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+li {
+  display: inline;
+  margin-right: 15px; /* Espacio entre los elementos */
+  list-style: none;
+  padding: 0;
+}
+
+.clima_en{
+    margin-top: 20px;
+}
+
+span {
+  font-weight: bold;
+}
+
+.texto_map{
+    font-size: 25px;
+    text-align: center;
+    color: #003566;
+    margin-top: 50px;
+}
+
+.imagen {
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagen img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  border: solid 5px #FFD60A;
+}
+
+.div_temperatura {
+  display: flex;
+  justify-content: center;
+  width: 30%;
+  margin: auto;
+  text-align: center;
+}
+
+
+
+.text_temp{
+    flex: 1;
+    color: #003566;
+    font-size: larger;
+}
+
+.text_temp_actual {
+  font-size: 30px;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-weight: bold;
+}
+
+.div_ul{
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+}
+
+
+.div_img_temp {
+    display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+}
+
+.div_img_temp img {
+  justify-content: center;
+  align-items: center;
+}
+
+.caja_principal {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.caja_principal p h3 {
+    display: flex;
+    flex-direction: column; /* Alinea los elementos en una columna */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+}
+
+header{
+    background-color: #001D3D;
+    padding: 25px;
+}
+
+.buscador{
+    padding: 6px;
+}
+
+.color_buscador{
+    background-color: #FFC300;
+}
+
+.color_buscador:hover {
+  background-color: #001D3D;
+  color: #fff;
+}
+
+
+.div_error{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.error_busqueda{
+  color: red;
+  background-color: yellow;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .nombre_elegido {
+    text-align: center;
+  }
+
+  .div_temperatura {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+  }
+
+  .div_img_temp {
+    display: flex;
+    justify-content: center;
+  }
+
+  p {
+    text-align: center;
+  }
+}
